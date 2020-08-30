@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+x =[1,4,5 ,2,3]
+y=[5,7,10,5,4]
+
+plt.bar(x,y,  label='bar1')
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.title('Interesting Graph\njust have a look ')
+plt.show()

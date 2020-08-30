@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+population_ages=[1,11,33,26,77,89,28,79,65,71,60,70,65,76,69,81,20,111,122,90,100,55,89,98,123,129,130]
+bins=[0,10,20,30,40,50,60,70,80,90,100,120,130]
+
+plt.hist(population_ages,bins,histtype='bar', rwidth=0.8)
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.title('Interesting Graph\njust have a look ')
+plt.legend()
+plt.show()
