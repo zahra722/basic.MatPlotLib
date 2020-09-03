@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+days=[1,2,3,4,5]
+
+sleeping=[6,5,7,8,9]
+eating=[3,2,1,4,5]
+playing=[5,6,7,8,13]
+working=[6,8,9,10,11]
+
+slices=[7,2,2,13]
+activities=['sleeping', 'eating','playing','working']
+cols=['r','b','g','y']
+
+plt.pie(slices , labels=activities , colors=cols ,startangle=90, shadow=True , explode=(0,0.1,0,0) , autopct = '%1.1f%%')
+
+plt.title('Interesting Graph\njust have a look ')
+#plt.legend()
+plt.show()

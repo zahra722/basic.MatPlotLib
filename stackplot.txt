@@ -1,0 +1,24 @@
+import matplotlib.pyplot as plt
+days=[1,2,3,4,5]
+
+sleeping=[6,5,7,8,9]
+eating=[3,2,1,4,5]
+playing=[5,6,7,8,13]
+working=[6,8,9,10,11]
+
+plt.plot(  [ ],[ ] , color='r'  , label ='sleeping'  , linewidth=5 )
+
+plt.plot(  [ ],[ ] , color='k' , label ='eating'  , linewidth=5 )
+
+plt.plot(  [ ],[ ] , color='c' , label ='playing'  , linewidth=5 )
+
+plt.plot(  [ ],[ ] , color='m',  label ='working' , linewidth=5 )
+
+plt.stackplot(days ,   sleeping,eating,playing,working , colors=['r' ,'k','c','m'])
+
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.title('Interesting Graph\njust have a look ')
+plt.legend()
+plt.show()
